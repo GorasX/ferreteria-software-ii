@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreteria - Mis ordenes</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/icon-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="../js/script.js"></script>
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper-login">
+        <header class="header-my-orders">
+            <nav class="header-home-nav nav--my-orders">
+                <img class="menu-icon" src="../assets/icons/menu-icon.svg" alt="menu icon">
+                <a class="style-no-link" href="./home.html"><h2>Mis ordenes</h2></a>
+                <img class="shopping-cart" src="../assets/icons/shopping-cart.svg" alt="icon of a shopping cart">
+            </nav>
+        </header>
+        <main class="my-orders-section">
+            <article class="shopping-card-item my-orders__item">
+                <div class="part-up">
+                    <span class="my-orders__item__date price-product">Orden 1</span>
+                    <span class="my-orders__item__amount">5 Articulos</span>
+                </div>
+                <div class="back-container part-down">
+                    <span class="price-product">$ 120.000</span>
+                    <img onclick="showDetails()" class="close-icon close-item" src="../assets/icons/arrow-right.svg" alt="arrow right icon">
+                </div>
+            </article>
+            <article class="shopping-card-item my-orders__item">
+                <div class="part-up">
+                    <span class="my-orders__item__date price-product">Orden 2</span>
+                    <span class="my-orders__item__amount">8 Articulos</span>
+                </div>
+                <div class="back-container part-down">
+                    <span class="price-product">$ 235.000</span>
+                    <img onclick="showDetails()" class="close-icon close-item" src="../assets/icons/arrow-right.svg" alt="arrow right icon">
+                </div>
+            </article>
+            <article class="shopping-card-item my-orders__item">
+                <div class="part-up">
+                    <span class="my-orders__item__date price-product">Orden 3</span>
+                    <span class="my-orders__item__amount">6 Articulos</span>
+                </div>
+                <div class="back-container part-down">
+                    <span class="price-product">$ 112.000</span>
+                    <img onclick="showDetails()" class="close-icon close-item" src="../assets/icons/arrow-right.svg" alt="arrow right icon">
+                </div>
+            </article>
+            <article class="shopping-card-item my-orders__item">
+                <div class="part-up">
+                    <span class="my-orders__item__date price-product">Orden 4</span>
+                    <span class="my-orders__item__amount">7 Articulos</span>
+                </div>
+                <div class="back-container part-down">
+                    <span class="price-product">$ 210.000</span>
+                    <img onclick="showDetails()" class="close-icon close-item" src="../assets/icons/arrow-right.svg" alt="arrow right icon">
+                </div>
+            </article>
+            <article class="shopping-card-item my-orders__item">
+                <div class="part-up">
+                    <span class="my-orders__item__date price-product">Orden 5</span>
+                    <span class="my-orders__item__amount">5 Articulos</span>
+                </div>
+                <div class="back-container part-down">
+                    <span class="price-product">$ 551.000</span>
+                    <img onclick="showDetails()" class="close-icon close-item" src="../assets/icons/arrow-right.svg" alt="arrow right icon">
+                </div>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
